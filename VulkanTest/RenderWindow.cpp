@@ -19,6 +19,13 @@ bool RenderWindow::create(int width, int height, std::string title, VkInstance& 
 
 	}
 
+	// Create Swap Chain
+	VkFramebufferCreateInfo fbci;
+	fbci.sType = VK_STRUCTURE_TYPE_FRAMEBUFFER_CREATE_INFO;
+	fbci.pNext = NULL;
+	fbci.flags = NULL;
+	fbci.renderPass = NULL;
+
 	return true;
 }
 
