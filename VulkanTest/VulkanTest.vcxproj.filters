@@ -13,9 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Ressourcendateien\shaders">
+      <UniqueIdentifier>{99a847c3-17da-43eb-8eaf-749d57dbf338}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="shaders\frag.frag">
+      <Filter>Ressourcendateien\shaders</Filter>
+    </None>
+    <None Include="shaders\vert.vert">
+      <Filter>Ressourcendateien\shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RenderWindow.hpp">
